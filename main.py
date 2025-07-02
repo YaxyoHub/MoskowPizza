@@ -6,8 +6,7 @@ from aiogram.filters import CommandStart
 
 from .keyboard_buttons.button import uz_menu, ru_menu, en_menu, til_uz, til_ru, til_en
 
-bot = Bot(token='7958831718:AAG6fOWETvMUHpwRCre3HMl3xePFLVGpAWo')
-dp = Dispatcher()
+bot = Bot(token='')
 
 @dp.message(CommandStart())
 async def start_cmd(message: Message):
